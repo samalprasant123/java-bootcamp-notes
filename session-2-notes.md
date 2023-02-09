@@ -2,9 +2,9 @@
 
 ## Application Architecture
 
-![](assets/3-tier-architecture-copyPNG.png)
+![ABC](assets/3-tier-architecture-copyPNG.png)
 
-![](assets/3-tier-architecture-copyTIFF.tiff)
+![ABC](assets/3-tier-architecture-copyTIFF.tiff)
 
 ![3-Tier-Architecture](assets/3-tier-architecture.webp)
 
