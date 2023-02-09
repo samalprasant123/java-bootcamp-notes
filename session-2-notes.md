@@ -2,18 +2,20 @@
 
 ## Application Architecture
 
-![ABC](assets/3-tier-architecture-copyPNG.png)
+Application architecture generally comprises of many tier. We will discuss a three tier architecture. A three tier architecture comprises of the below tiers:
+- Presentation tier : the user interface 
+- Application tier : where request/data is processed
+- Data tier : associated data is stored and managed
 
-![ABC](assets/3-tier-architecture-copyTIFF.tiff)
+![3-tier-architecture](assets/3-tier-architecture.png)
 
-![3-Tier-Architecture](assets/3-tier-architecture.webp)
+#### Presentation tier
 
-![3-Tier-Architecture](https://github.com/samalprasant123/java-bootcamp-notes/blob/e573947383ff8b7abd6f668762e4685db4d0798d/assets/3-tier-architecture-copy.jpg)
+The presentation tier is the user interface and communication layer of the application, where the end user interacts with the application. Its main purpose is to display information to and collect information from the user. This top-level tier can run on a web browser or as a desktop application.
+It is usually developed using HTML, CSS and JavaScript.
 
-- This is a note
-```
-Code note
-```
+#### Application tier
 
+#### Data tier
 
 ## Working of a Web request
