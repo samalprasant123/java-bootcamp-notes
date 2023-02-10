@@ -35,7 +35,7 @@ The data tier, sometimes called database tier, data access tier or back-end, is 
 
 All computers on the internet, from smart-phone or laptop to the servers that serve content, communicate with one another by using numbers. These numbers, known as IP addresses, are in one of the following formats:
 - Internet Protocol version 4 (IPv4) format, such as 192.0.2.44
-- Internet Protocol version 6 (IPv6) format, such as 2001:0db8:85a3:0000:0000:abcd:0001:2345
+- Internet Protocol version 6 (IPv6) format, such as 2001:0db8:85a3:0000:0000:1b3d:0001:2345
 
 When you open a browser and go to a website, you don't have to remember and enter a long string of characters like that. Instead, you can enter a domain name like example.com and still end up in the right place. A DNS service helps to make that connection between domain names and IP addresses.
 
