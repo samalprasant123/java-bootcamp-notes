@@ -47,9 +47,7 @@ When you open a browser and go to a website, you don't have to remember and ente
 
 3. The DNS resolver for the ISP forwards the request for www.example.com to a DNS root name server.
 
-4. The DNS resolver forwards the request for www.example.com again, this time to one of the TLD name servers for .com domains. The name server for .com domains responds to the request with the names of the four Route 53 name servers that are associated with the example.com domain.
-
-The DNS resolver caches (stores) the four Route 53 name servers. The next time someone browses to example.com, the resolver skips steps 3 and 4 because it already has the name servers for example.com. The name servers are typically cached for two days.
+4. The DNS resolver forwards the request for www.example.com again, this time to one of the TLD (top level domain) name servers for .com domains. The name server for .com domains responds to the request with the names of the four Route 53 name servers that are associated with the example.com domain.
 
 5. The DNS resolver chooses a Route 53 name server and forwards the request for www.example.com to that name server.
 
@@ -57,6 +55,6 @@ The DNS resolver caches (stores) the four Route 53 name servers. The next time s
 
 7. The DNS resolver finally has the IP address that the user needs. The resolver returns that value to the web browser.
 
-8. The web browser sends a request for www.example.com to the IP address that it got from the DNS resolver. This is where your content is, for example, a web server running on an Amazon EC2 instance or an Amazon S3 bucket that's configured as a website endpoint.
+8. The web browser sends a request for www.example.com to the IP address that it got from the DNS resolver. This is where your content is, for example, a web server running on an say Amazon EC2 instance or an Amazon S3 bucket that's configured as a website endpoint.
 
 9. The web server or other resource at 192.0.2.44 returns the web page for www.example.com to the web browser, and the web browser displays the page.
